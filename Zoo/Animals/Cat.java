@@ -1,6 +1,6 @@
-package Animals;
+package Zoo.Animals;
 
-import Base.PetAnimal;
+import Zoo.Base.PetAnimal;
 
 public class Cat extends PetAnimal {
     public Cat(int height1, int weight1, String colorOfEyes1, String name1,

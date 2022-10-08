@@ -1,6 +1,6 @@
-package Goods.Hygiene;
+package Store.Goods.Hygiene;
 
-import Goods.Hygiene.Base.Hygiene;
+import Store.Goods.Hygiene.Base.Hygiene;
 
 public class ToiletPaper extends Hygiene {
     protected int countOfLay;

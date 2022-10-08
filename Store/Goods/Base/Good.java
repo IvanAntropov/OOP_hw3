@@ -1,4 +1,4 @@
-package Goods.Base;
+package Store.Goods.Base;
 
 public class Good {
     protected String name;

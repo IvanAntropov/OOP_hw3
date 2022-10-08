@@ -1,8 +1,6 @@
-package Goods.Food;
+package Store.Goods.Food;
 
-
-import Goods.Base.Good;
-import Goods.Food.Base.Food;
+import Store.Goods.Food.Base.Food;
 
 public class Bread extends Food {
     protected String typeOfFlour;

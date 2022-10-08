@@ -1,11 +1,15 @@
-import Animals.*;
+package Zoo;
 
-import Animals.Birds.Base.Bird;
-import Animals.Birds.Chicken;
-import Animals.Birds.Stork;
-import Base.Animal;
-import ClassZoo.Zoo;
-import Interfaces.IPet;
+import Zoo.Animals.Birds.Base.Bird;
+import Zoo.Animals.Birds.Chicken;
+import Zoo.Animals.Birds.Stork;
+import Zoo.Animals.Cat;
+import Zoo.Animals.Dog;
+import Zoo.Animals.Tiger;
+import Zoo.Animals.Wolf;
+import Zoo.Base.Animal;
+import Zoo.ClassZoo.Zoo;
+import Zoo.Interfaces.IPet;
 
 public class Program {
 

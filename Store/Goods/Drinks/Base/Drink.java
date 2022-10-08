@@ -1,8 +1,8 @@
-package Goods.Drinks.Base;
+package Store.Goods.Drinks.Base;
 
-import Goods.Base.Good;
+import Store.Goods.Base.Good;
 
-public class Drink extends Good{
+public class Drink extends Good {
     protected int volume;
 
     public Drink(String name, int count, String unit, int volume) {

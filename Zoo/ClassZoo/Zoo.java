@@ -1,6 +1,6 @@
-package ClassZoo;
+package Zoo.ClassZoo;
 
-import Base.Animal;
+import Zoo.Base.Animal;
 import java.util.Stack;
 
 public class Zoo {

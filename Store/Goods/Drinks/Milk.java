@@ -1,6 +1,6 @@
-package Goods.Drinks;
+package Store.Goods.Drinks;
 
-import Goods.Drinks.Base.Drink;
+import Store.Goods.Drinks.Base.Drink;
 
 
 public class Milk extends Drink {

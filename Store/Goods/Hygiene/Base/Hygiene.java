@@ -1,6 +1,6 @@
-package Goods.Hygiene.Base;
+package Store.Goods.Hygiene.Base;
 
-import Goods.Base.Good;
+import Store.Goods.Base.Good;
 
 public class Hygiene extends Good {
     protected int countOfPack;

@@ -1,6 +1,6 @@
-package Goods.BabysProducts;
+package Store.Goods.BabysProducts;
 
-import Goods.BabysProducts.Base.BabyProduct;
+import Store.Goods.BabysProducts.Base.BabyProduct;
 
 public class Nipple extends BabyProduct {
     public Nipple(String name, int count, String unit, int minAge, boolean allergenic) {

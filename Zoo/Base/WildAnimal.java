@@ -1,6 +1,8 @@
-package Base;
+package Zoo.Base;
 
-public abstract class WildAnimal extends Animal{
+import Zoo.Base.Animal;
+
+public abstract class WildAnimal extends Animal {
 
     public String habitat;
     public String dateOfFinding;

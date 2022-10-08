@@ -1,6 +1,6 @@
-package Goods.BabysProducts.Base;
+package Store.Goods.BabysProducts.Base;
 
-import Goods.Base.Good;
+import Store.Goods.Base.Good;
 
 public class BabyProduct extends Good {
     protected int minAge;

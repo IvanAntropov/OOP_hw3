@@ -1,8 +1,8 @@
-package Goods.Food.Base;
+package Store.Goods.Food.Base;
 
-import Goods.Base.Good;
+import Store.Goods.Base.Good;
 
-public class Food extends Good{
+public class Food extends Good {
     protected String shelfLife;
 
     public Food(String name, int count, String unit, String date) {

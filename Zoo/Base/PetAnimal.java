@@ -1,7 +1,7 @@
-package Base;
+package Zoo.Base;
 
-import Base.Animal;
-import Interfaces.IPet;
+import Zoo.Base.Animal;
+import Zoo.Interfaces.IPet;
 
 public abstract class PetAnimal extends Animal implements IPet {
     public String name;

@@ -1,17 +1,19 @@
-import Goods.BabysProducts.Base.BabyProduct;
-import Goods.BabysProducts.Diaper;
-import Goods.BabysProducts.Nipple;
-import Goods.Base.Good;
-import Goods.Drinks.Base.Drink;
-import Goods.Drinks.Limonade;
-import Goods.Drinks.Milk;
-import Goods.Food.Base.Food;
-import Goods.Food.Bread;
-import Goods.Food.Eggs;
-import Goods.Hygiene.Base.Hygiene;
-import Goods.Hygiene.Mask;
-import Goods.Hygiene.ToiletPaper;
-import Store.Store;
+package Store;
+
+import Store.Goods.BabysProducts.Base.BabyProduct;
+import Store.Goods.BabysProducts.Diaper;
+import Store.Goods.BabysProducts.Nipple;
+import Store.Goods.Base.Good;
+import Store.Goods.Drinks.Base.Drink;
+import Store.Goods.Drinks.Limonade;
+import Store.Goods.Drinks.Milk;
+import Store.Goods.Food.Base.Food;
+import Store.Goods.Food.Bread;
+import Store.Goods.Food.Eggs;
+import Store.Goods.Hygiene.Base.Hygiene;
+import Store.Goods.Hygiene.Mask;
+import Store.Goods.Hygiene.ToiletPaper;
+import Store.Store.Store;
 
 public class Program {
     public static void main(String[] args) {

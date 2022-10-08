@@ -1,6 +1,6 @@
-package Goods.BabysProducts;
+package Store.Goods.BabysProducts;
 
-import Goods.BabysProducts.Base.BabyProduct;
+import Store.Goods.BabysProducts.Base.BabyProduct;
 
 public class Diaper extends BabyProduct {
     protected int size;

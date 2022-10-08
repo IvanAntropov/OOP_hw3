@@ -1,6 +1,6 @@
-package Store;
+package Store.Store;
 
-import Goods.Base.Good;
+import Store.Goods.Base.Good;
 
 public class Store {
     static Good[] soreGoods = new Good[5];

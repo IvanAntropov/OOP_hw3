@@ -1,6 +1,6 @@
-package Animals.Birds.Base;
+package Zoo.Animals.Birds.Base;
 
-import Base.Animal;
+import Zoo.Base.Animal;
 
 public abstract class Bird extends Animal {
     public int heightOfFly;

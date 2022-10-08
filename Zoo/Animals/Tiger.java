@@ -1,6 +1,6 @@
-package Animals;
+package Zoo.Animals;
 
-import Base.WildAnimal;
+import Zoo.Base.WildAnimal;
 
 public class Tiger extends WildAnimal {
 

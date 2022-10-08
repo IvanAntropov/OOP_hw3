@@ -1,4 +1,4 @@
-package Interfaces;
+package Zoo.Interfaces;
 
 public abstract interface IAnimal{
 

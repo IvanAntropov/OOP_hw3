@@ -1,6 +1,6 @@
-package Animals.Birds;
+package Zoo.Animals.Birds;
 
-import Animals.Birds.Base.Bird;
+import Zoo.Animals.Birds.Base.Bird;
 
 public class Stork extends Bird {
 
