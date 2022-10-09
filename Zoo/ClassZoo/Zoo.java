@@ -1,49 +1,93 @@
 package Zoo.ClassZoo;
 
+import Zoo.Animals.Birds.Base.Bird;
+import Zoo.Animals.Dog;
 import Zoo.Base.Animal;
+import Zoo.Interfaces.IPet;
+
+import java.util.ArrayList;
 import java.util.Stack;
 
 public class Zoo {
-    static private Stack<Animal> zoo = new Stack<>();
+    static private ArrayList<Animal> zoo = new ArrayList<>();
 
     public void add(Animal animal) {
-        zoo.push(animal);
+        zoo.add(animal);
     }
 
     public void delete(int index) {
-        zoo.removeElementAt(index);
+        if(index < zoo.size()){
+            zoo.remove(index);
+        }else{
+            System.out.printf("\nNo such index\s");
+        }
     }
 
     public void showAnimal(int index) {
-        Stack<Animal> helpZoo = zoo;
-        for(int i = 0; i > index;i++){
-            helpZoo.pop();
+        if(index < zoo.size()){
+            zoo.get(index).GetInfo();
+        }else{
+            System.out.printf("\nNo such animal by index\s");
         }
-        Animal animal = helpZoo.pop();
-        animal.GetInfo();
     }
 
     public void showAll() {
-        Stack<Animal> helpZoo = zoo;
-        while (helpZoo.peek()!=null){
-            helpZoo.pop().GetInfo();
+        if(zoo.isEmpty()){
+            System.out.printf("\nZoo is empty\s");
+        }else{
+            for(int i = 0; i > zoo.size();i++){
+                zoo.get(i).GetInfo();
+            }
         }
     }
 
     public void makeSound(int index){
-        Stack<Animal> helpZoo = zoo;
-        for(int i = 0; i > index;i++){
-            helpZoo.pop();
+        if(index < zoo.size()){
+            zoo.get(index).MakeSound();
+        }else{
+            System.out.printf("\nNo such animal by index\s");
         }
-        Animal animal = helpZoo.pop();
-        animal.MakeSound();
     }
 
     public void makeSoundAll() {
-        Stack<Animal> helpZoo = zoo;
-        while (helpZoo.peek()!=null){
-            helpZoo.pop().MakeSound();
+        if(zoo.isEmpty()){
+            System.out.printf("\nZoo is empty\s");
+        }else{
+            for(int i = 0; i > zoo.size();i++){
+                zoo.get(i).MakeSound();
+            }
         }
     }
 
+    public void doStuff(int index){
+        if(index < zoo.size()){
+            Animal animal = zoo.get(index);
+            doing(animal);
+        }else{
+            System.out.printf("\nNo such animal by index\s");
+        }
+    }
+
+    public void doStuffAll(){
+        if(zoo.isEmpty()){
+            System.out.printf("\nZoo is empty\s");
+        }else{
+            for(int i = 0; i > zoo.size();i++){
+                Animal animal = zoo.get(i);
+                doing(animal);
+            }
+        }
+    }
+
+    private void doing(Animal animal){
+        if(animal instanceof IPet){
+            ((IPet) animal).showAffection();
+        }
+        if(animal instanceof Bird){
+            ((Bird) animal).fly();
+        }
+        if(animal instanceof Dog){
+            ((Dog)animal).training();
+        }
+    }
 }

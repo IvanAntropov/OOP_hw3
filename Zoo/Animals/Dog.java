@@ -38,5 +38,6 @@ public class Dog extends PetAnimal {
                         "Цвет шерсти: %s\n" +
                         "Дата рождения: %s\n",
                 height,weight,colorOfEyes,name,breed,vaccines,colorOfFur,dateOfBirth);
+        System.out.printf(info);
     }
 }

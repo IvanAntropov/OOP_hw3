@@ -23,6 +23,7 @@ public class Chicken extends Bird {
                         "Цвет глаз: %s\n" +
                         "Высота полета: %d\n",
                 height,weight,colorOfEyes,heightOfFly);
+        System.out.printf(info);
     }
 
     @Override
